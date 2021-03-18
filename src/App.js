@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// mes pages
+import Home from './pages/Home';
+import About from './pages/About';
+import Competences from './pages/Competences';
+import Galerie from './pages/Galerie';
+import Contact from './pages/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Fragment>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home}/> 
+          <Route path="/about" exact component={About}/> 
+          <Route path="/competences" exact component={Competences}/> 
+          <Route path="/galerie" exact component={Galerie}/> 
+          <Route path="/contact" exact component={Contact}/> 
+        </Switch>
+      </BrowserRouter>
+    </Fragment>
+    );
 }
 
 export default App;
