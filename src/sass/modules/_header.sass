@@ -1,0 +1,75 @@
+header 
+    nav
+        position: fixed
+        top: 2%
+        z-index: 10
+        height: 50px
+        display: flex
+        align-items: center
+        width: 100%
+        justify-content: space-around        
+        .logo
+            img
+                width: 50px
+        .navig
+            text-transform: uppercase
+            font-family: 'josefin'
+            justify-self: self-end
+            a
+                margin: 0 10px
+                cursor: pointer
+
+
+    .banniere
+        background-color: red
+        height: 100vh
+        background:-webkit-linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.6)), url(../img/fond1.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        position: relative
+
+        .contenu
+            position: absolute
+            top: 20%
+            left: 30%
+            border: 1px solid white
+            padding: 100px
+            z-index: 100
+            .titre
+                font-size: 35px
+                text-transform: uppercase
+                font-family: 'josefin'
+                color: white
+
+            .soustitre
+                font-family: 'josefin'
+                color: white
+                font-size: 30px
+
+        .scroll-indicator
+            position: absolute
+            bottom: 0
+            width: 100%
+            left: 0
+            z-index: 1
+            display: flex
+            justify-content: center
+            flex-direction: column
+            align-items: center
+
+            .scroll-indicator__text
+                color: #fff
+                font-size: 20px
+                font-size: 1.25rem
+                margin-bottom: 20px
+                font-family: 'josefin'
+                pointer-events: all
+                cursor: pointer
+
+            .scroll-indicator__bar
+                width: 2px
+                height: 59px
+                background-color: #fff
+
+

@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // mes pages
 import Home from './pages/Home';
-import About from './pages/About';
-import Competences from './pages/Competences';
-import Galerie from './pages/Galerie';
+import About from './components/About';
+import Competences from './components/Competences';
+import Galerie from './components/Galerie';
 import Contact from './pages/Contact';
 
 
