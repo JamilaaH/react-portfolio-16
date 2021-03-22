@@ -8,13 +8,18 @@ html {
 }
 
 header nav {
-  position: fixed;
+  position: absolute;
   height: 70px;
   z-index: 100;
   display: flex;
   align-items: center;
-  width: 100%;
+  top: 0;
   justify-content: space-around;
+  width: 100%;
+}
+
+header nav .icon {
+  color: white;
 }
 
 header nav .logo img {
@@ -43,7 +48,8 @@ header .navbar-active {
   z-index: 100;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  top: 0;
   justify-content: space-around;
 }
 
@@ -116,6 +122,33 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
   }
 }
 
+@media screen and (max-width: 768px) {
+  header .banniere {
+    height: 50vh;
+  }
+  header .banniere .contenu {
+    padding: 50px;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  header .banniere {
+    height: 50vh;
+  }
+  header .banniere .contenu {
+    padding: 30px;
+    left: 20%;
+    top: 30%;
+  }
+  header .banniere .contenu .titre {
+    font-size: 17px;
+  }
+  header .banniere .contenu .soustitre {
+    font-size: 15px;
+  }
+}
+
 .about {
   height: 100vh;
 }
@@ -128,6 +161,18 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
   background: -webkit-linear-gradient(#1d2671, #c33764);
   height: 100vh;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .competence {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .competence {
+    height: unset;
+  }
 }
 
 .contact {
