@@ -9,7 +9,6 @@ function Banniere() {
     return (
         <Fragment>
             <div className="banniere">
-                <div className="box">
                     <Fade left>
                         <div className="contenu text-center">
                             <p className="titre">Jamila Hammani</p>
@@ -32,7 +31,6 @@ function Banniere() {
                         </Pulse>
                         <span class="scroll-indicator__bar" ></span>
                     </div>
-                </div>
             </div>
 
         </Fragment>

@@ -52,7 +52,7 @@ function Navigation(props) {
     }
     //mettre la couleur au navbar au moment du scroll
     let changeBackground = () => {
-        if (window.scrollY >= 70 ) {
+        if (window.scrollY >= 50 ) {
             setNavbar(true)
         } else {
             setNavbar(false)
