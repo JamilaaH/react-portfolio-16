@@ -6,16 +6,14 @@ function Footer() {
         <Fragment>
             <footer>
                 <div className="container">
-                    <div className="row box-footer">
-                        <div className="col-md-4">
-                            <img src="../img/logo.png" alt="logo" className="w-25 float-right"/>
-                        </div>
-                        <div className="col-md-4 reseaux">
+                    <div className="box-footer">
+                        <img src="../img/logo.png" alt="logo" className="logo"/>
+                        <div className="reseaux">
                             <i className="fab fa-facebook-f"></i>
                             <i className="fab fa-twitter"></i>
                             <i className="fab fa-instagram"></i>
                         </div>
-                        <div className="col-md-4">
+                        <div className="btn">
                             <Button variant="outline-light">Contact</Button>
                         </div>
                     </div>

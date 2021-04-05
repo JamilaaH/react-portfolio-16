@@ -1,17 +1,21 @@
 footer
     background: $colorBlue
     color: white
-    display: flex
-    align-self: center
     .box-footer
         padding: 30px
         display: flex
         align-items: center
-        justify-content: center
-
+        flex-direction: column
+        justify-content: space-evenly
+        .logo
+            width: 10%
+            margin-bottom: 20px
         .reseaux
             display: flex
-            justify-content: space-evenly
             color: white
-    .copy 
-        font-size: 12px
+            margin-bottom: 5px
+            .fab
+                margin: 0 5px
+        .copy 
+            font-size: 12px
+

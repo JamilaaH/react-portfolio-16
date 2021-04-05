@@ -17,12 +17,24 @@ function About(props) {
                     </div>
                     <div className="row  p-4">
                         <div className="  col-md-6" data-aos="fade-up">
-                        <span>
-                            Hello world,<br/> je me présente, je m'appelle Jamila Hammani, j'ai 26 ans et je suis full Stack Developpeur et UI Designer.
-                            Diplomée en écriture multimédia et formée à MolenGeek en web developper 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident accusantium cum ut corporis saepe minima animi quis! Consequatur beatae quod dolores nulla, asperiores itaque repudiandae a voluptate, laborum, quasi odit incidunt aliquid enim cum velit fuga unde facere ipsa! Quas, beatae?
-                        </span>
+                        <p>Jeune diplomée en écriture multimédia à l’ISFSC. Je souhaite mettre en pratique toutes les compétences
+                        acquises.
+                        Je suis passionnée de photographie gastronomique et paysage (autodidacte) et par le web design, je suis
+                        très à l'aise avec la suite Adobe et approfondi mes compétences en
+                        auto-formation, de nature curieuse je m'inspire de tout ce qui m'entoure.</p>      
+
+                        <p>Durant mon parcours académique j'ai eu l'occasion de réaliser mes stages dans 2 domaines différents.
+                        Lors de mon stage de 8 semaines chez KERN IT, j'ai eu l'occasion de réaliser des maquettes de site, logo
+                        ainsi qu'une maquette d'un prototype d'application. J'ai également réalisé des sites en CMS (Squarespace
+                        ou encore Wordpress) ainsi que des analyses au niveau du référencement SEO. </p>
+                        
+                        <p>Mon second stage de 12 semaines a été fait chez Wazo Agency, ça s'est tourné autour du marketing
+                        digitale et des créations de visuels
+                        pour les différents réseaux sociaux de l'entreprise et de leurs clients. J'ai pu également mettre en
+                        action une de mes passions : la photographie.
+                        </p>
                         </div>
+
                         <div className="col-md-6" data-aos="fade-up" >
                             <img src="../img/illu.png" alt="dev" className="w-100"/>
                         </div>

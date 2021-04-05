@@ -8,11 +8,15 @@ header
         top: 0
         justify-content: space-around
         width: 100%
-        .icon
-            color: white
         .logo
             img
                 width: 50px
+        .menu
+            display: none
+            .icon
+                color: white
+
+
         .navig
             text-transform: uppercase
             font-family: 'josefin'
@@ -22,7 +26,7 @@ header
                 cursor: pointer
             .nav-active
                     color: $colorRed
-
+                    
     .navbar-active
         background-color: $colorBlue
         position: fixed
@@ -87,6 +91,8 @@ header
                 background-color: #fff
                 animation: barre 3s infinite
 
+
+
 @keyframes barre
     0%
         height: 0px
@@ -104,6 +110,36 @@ header
 
 @media screen and (max-width: 376px) 
     header
+        nav
+            .navig
+                position: absolute
+                height: 200px
+                top: 0px
+                background: $colorBlue
+                right: -100%
+                width: 0%
+                transition: all 0.5s ease
+            .mobile
+                transition: all 0.5s ease
+                position: absolute
+                height: 200px
+                top: 0px
+                background: $colorBlue
+                right: 0%
+                width: 100%
+                .navlink
+                    padding: 5px 0
+                    text-align: center
+                    flex-direction: column
+                    display: flex
+
+            .menu
+                display: block
+                position: absolute
+                right: 20px
+                cursor: pointer
+                z-index: 23
+
         .banniere
             height: 50vh
             .contenu
