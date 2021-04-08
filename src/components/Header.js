@@ -20,11 +20,11 @@ function Header(props) {
                         <div className="contact">
                             <div className="container">
                                 <div className="row mt-2">
-                                    <div className="col-md-12">
+                                    <div className="col-12">
                                         <h3 className="text-center text-white">Contactez moi </h3>
                                         <Form>
                                             <Form.Group controlId="formGroup">
-                                                <Form.Label className="titre-contact">Nom</Form.Label>
+                                                <Form.Label className="titre-contact col-12">Nom</Form.Label>
                                                 <Form.Control type="name" placeholder="votre nom" />
                                             </Form.Group>
                                             <Form.Group controlId="formGroup">

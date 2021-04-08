@@ -138,7 +138,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 
 @media screen and (max-width: 768px) {
   header .banniere {
-    height: 50vh;
+    height: 100vh;
   }
   header .banniere .contenu {
     left: 27%;
@@ -184,7 +184,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
     z-index: 23;
   }
   header .banniere {
-    height: 50vh;
+    height: 100vh;
   }
   header .banniere .contenu {
     padding: 30px;
@@ -245,6 +245,14 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
   font-family: 'josefin';
 }
 
+@media screen and (max-width: 378px) {
+  .contact {
+    left: 0;
+    top: 10%;
+    width: 100%;
+  }
+}
+
 footer {
   background: #1d2671;
   color: white;
@@ -275,4 +283,11 @@ footer .box-footer .reseaux .fab {
 
 footer .box-footer .copy {
   font-size: 12px;
+}
+
+@media screen and (max-width: 378px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
 }

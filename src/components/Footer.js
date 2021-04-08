@@ -13,9 +13,6 @@ function Footer() {
                             <i className="fab fa-twitter"></i>
                             <i className="fab fa-instagram"></i>
                         </div>
-                        <div className="btn">
-                            <Button variant="outline-light">Contact</Button>
-                        </div>
                     </div>
                 </div>
                 <div className="copy  text-center">
