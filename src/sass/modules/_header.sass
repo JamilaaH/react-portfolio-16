@@ -1,7 +1,7 @@
 header 
     nav
         position: absolute
-        height: 70px
+        height: 50px
         z-index: 100
         display: flex
         align-items: center
@@ -10,7 +10,7 @@ header
         width: 100%
         .logo
             img
-                width: 50px
+                width: 35px
         .menu
             display: none
             .icon
@@ -30,7 +30,7 @@ header
     .navbar-active
         background-color: $colorBlue
         position: fixed
-        height: 70px
+        height: 50px
         z-index: 100
         display: flex
         align-items: center
@@ -41,7 +41,7 @@ header
     .banniere
         background-color: red
         height: 100vh
-        background:-webkit-linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.6)), url(../img/fond1.jpg)
+        background:-webkit-linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.7)), url(../img/fond1.jpg)
         background-repeat: no-repeat
         background-size: cover
         background-position: center
@@ -53,9 +53,10 @@ header
             left: 32%
             transform: translateX(-100%)
             transform: translateY(-100%)
+            border-radius: 8px
             border: 1px solid white
-            width: 500px
-            height: 200px
+            width: 600px
+            height: 300px
             z-index: 10
             display: flex
             flex-direction: column
@@ -115,49 +116,53 @@ header
                 height: unset
 
 @media screen and (max-width: 376px) 
-    header
-        nav
-            .navig
-                position: absolute
-                height: 200px
-                top: 0px
-                background: $colorBlue
-                right: -100%
-                width: 0%
-                transition: all 0.5s ease
-            .mobile
-                transition: all 0.5s ease
-                position: absolute
-                height: 200px
-                top: 0px
-                background: $colorBlue
-                right: 0%
-                width: 100%
-                text-transform: uppercase
-                justify-content: center
-                align-items: center
-                .navlink
-                    padding: 5px 0
-                    text-align: center
-                    flex-direction: column
-                    display: flex
+    body
+        overflow-x: hidden 
+        header
+            nav
+                .navig
+                    position: absolute
+                    height: 200px
+                    top: 0px
+                    background: $colorBlue
+                    right: -100%
+                    width: 0%
+                    overflow-x: hidden
+                    transition: all 0.3s ease
+                .mobile
+                    transition: all 0.3s ease
+                    position: absolute
+                    height: 200px
+                    top: 0px
+                    background: $colorBlue
+                    right: 0%
+                    width: 100%
+                    text-transform: uppercase
+                    justify-content: center
                     align-items: center
+                    overflow-x: hidden
+                    .navlink
+                        padding: 5px 0
+                        text-align: center
+                        flex-direction: column
+                        display: flex
+                        align-items: center
 
-            .menu
-                display: block
-                position: absolute
-                right: 20px
-                cursor: pointer
-                z-index: 23
+                .menu
+                    display: block
+                    position: absolute
+                    right: 20px
+                    cursor: pointer
+                    z-index: 23
 
-        .banniere
-            height: 100vh
-            .contenu
-                padding: 30px
-                left: 20%
-                top: 30%
-                .titre
-                    font-size: 17px
-                .soustitre
-                    font-size: 15px
+            .banniere
+                height: 100vh
+                .contenu
+                    padding: 30px
+                    left: 20%
+                    top: 30%
+                    .titre
+                        font-size: 17px
+                    .soustitre
+                        font-size: 15px
 

@@ -13,7 +13,7 @@ body html {
 
 header nav {
   position: absolute;
-  height: 70px;
+  height: 50px;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ header nav {
 }
 
 header nav .logo img {
-  width: 50px;
+  width: 35px;
 }
 
 header nav .menu {
@@ -52,7 +52,7 @@ header nav .navig .nav-active {
 header .navbar-active {
   background-color: #1d2671;
   position: fixed;
-  height: 70px;
+  height: 50px;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ header .navbar-active {
 header .banniere {
   background-color: red;
   height: 100vh;
-  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.6)), url(../img/fond1.jpg);
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.7)), url(../img/fond1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -77,9 +77,10 @@ header .banniere .contenu {
   left: 32%;
   transform: translateX(-100%);
   transform: translateY(-100%);
+  border-radius: 8px;
   border: 1px solid white;
-  width: 500px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -148,17 +149,21 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 }
 
 @media screen and (max-width: 376px) {
-  header nav .navig {
+  body {
+    overflow-x: hidden;
+  }
+  body header nav .navig {
     position: absolute;
     height: 200px;
     top: 0px;
     background: #1d2671;
     right: -100%;
     width: 0%;
-    transition: all 0.5s ease;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
   }
-  header nav .mobile {
-    transition: all 0.5s ease;
+  body header nav .mobile {
+    transition: all 0.3s ease;
     position: absolute;
     height: 200px;
     top: 0px;
@@ -168,33 +173,34 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
   }
-  header nav .mobile .navlink {
+  body header nav .mobile .navlink {
     padding: 5px 0;
     text-align: center;
     flex-direction: column;
     display: flex;
     align-items: center;
   }
-  header nav .menu {
+  body header nav .menu {
     display: block;
     position: absolute;
     right: 20px;
     cursor: pointer;
     z-index: 23;
   }
-  header .banniere {
+  body header .banniere {
     height: 100vh;
   }
-  header .banniere .contenu {
+  body header .banniere .contenu {
     padding: 30px;
     left: 20%;
     top: 30%;
   }
-  header .banniere .contenu .titre {
+  body header .banniere .contenu .titre {
     font-size: 17px;
   }
-  header .banniere .contenu .soustitre {
+  body header .banniere .contenu .soustitre {
     font-size: 15px;
   }
 }
@@ -211,6 +217,13 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 
 .galerie {
   height: 100vh;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 376px) {
+  .galerie {
+    overflow-x: hidden;
+  }
 }
 
 .competence {
@@ -278,16 +291,10 @@ footer .box-footer .reseaux {
 }
 
 footer .box-footer .reseaux .fab {
-  margin: 0 5px;
+  margin: 0 10px;
+  font-size: 25px;
 }
 
 footer .box-footer .copy {
-  font-size: 12px;
-}
-
-@media screen and (max-width: 378px) {
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
+  font-size: 10px;
 }

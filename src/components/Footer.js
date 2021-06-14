@@ -7,17 +7,16 @@ function Footer() {
             <footer>
                 <div className="container">
                     <div className="box-footer">
-                        <img src="../img/logo.png" alt="logo" className="logo"/>
                         <div className="reseaux">
-                            <i className="fab fa-facebook-f"></i>
-                            <i className="fab fa-twitter"></i>
-                            <i className="fab fa-instagram"></i>
+                            <a href="https://www.linkedin.com/in/jamila-hammani/" className="text-light" target="_blank"><i className="icon fab fa-linkedin "></i></a>
+                            <a href="https://github.com/JamilaaH" className="text-light" target="_blank"><i className="icon fab fa-github "></i></a>
+                            <a href="https://www.instagram.com/jamila.hmn/" className="text-light" target="_blank"><i className="icon fab fa-instagram "></i></a>
                         </div>
                     </div>
                 </div>
-                <div className="copy  text-center">
-                    <span>
-                        &copy; Copyright H.Jamila | Coding School 2021</span>
+                <div className=" pb-4 text-center">
+                    <span className = " copy font-weight-light">
+                        &copy; All rights reserved <br />2021</span>
                 </div>
             </footer>
         </Fragment>
