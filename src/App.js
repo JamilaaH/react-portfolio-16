@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './components/About';
 import Competences from './components/Competences';
 import Galerie from './components/Galerie';
-import Contact from './pages/Contact';
+import Contact from './components/Contact';
 
 
 function App() {

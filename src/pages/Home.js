@@ -13,7 +13,7 @@ function Home() {
             <About titre="A propos"  />
             <Competence titre ="Compétences" />
             <Galerie titre ="Mes réalisations" />
-            <Footer/>
+            <Footer titre="Contact" />
         </Fragment>
     );
 }

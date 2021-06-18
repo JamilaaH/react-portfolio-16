@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react';
 
-function Footer(props) {
+function Contact(props) {
     return (
         <Fragment>
-            <footer id="contact">
-                <div className="container">
-                    <div className="row">
-                            <div className="col-12">
-                                <h1 className = "titre-footer text-center">{props.titre}</h1>
-                            </div>
-                        </div>
+            <section className="container" id="contact">
+                <div className="row">
+                    <div className="col-12">
+                        <h1 className = "text-center">{props.titre}</h1>
+                    </div>
                 </div>
                 <div className="reseaux">
                     <a href="https://www.linkedin.com/in/jamila-hammani/"  target="_blank"><i className="icon fab fa-linkedin "></i></a>
@@ -17,14 +15,9 @@ function Footer(props) {
                     <a href="https://www.instagram.com/jamila.hmn/"  target="_blank"><i className="icon fab fa-instagram"></i></a>
                     <a href="mailto:jamila-h@outlook.fr"  target="_blank"><i className="fas fa-envelope"></i></a>
                 </div>
-                <hr/>
-                <div className="text-center">
-                    <span className = "copy font-weight-light">
-                        &copy; All rights reserved Jamila Hammani <br />2021</span>
-                </div>
-            </footer>
+            </section>
         </Fragment>
     );
 }
 
-export default Footer;
+export default Contact  

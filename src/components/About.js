@@ -17,8 +17,8 @@ function About(props) {
                     </div>
                     <div className="row  p-4">
                         <div className=" col-md-8" data-aos="fade-up">
-                        <p>Jeune diplomée en écriture multimédia à l’ISFSC. Je souhaite mettre en pratique toutes les compétences
-                        acquises.
+                        <p>Jeune diplomée en écriture multimédia à l’ISFSC et formée en développement web à MolenGeek. Je souhaite mettre en pratique toutes les compétences
+                        acquises. 
                         Je suis passionnée de photographie gastronomique et paysage (autodidacte) et par le web design, je suis
                         très à l'aise avec la suite Adobe et approfondi mes compétences en
                         auto-formation, de nature curieuse je m'inspire de tout ce qui m'entoure.</p>      
@@ -35,7 +35,7 @@ function About(props) {
                         </p>
                         </div>
 
-                        <div className="col-md-2 offset-md-2" data-aos="fade-up" >
+                        <div className="col-md-4 " data-aos="fade-up" >
                             <img src="../img/avatar.png" alt="dev" className="w-75 mx-auto img-thumbnail"/>
                         </div>
                     </div>

@@ -35,7 +35,8 @@ function Navigation(props) {
             <a href= "#about" onClick={closeMobileMenu} className="text-decoration-none navlink text-light"> A propos </a>
             <a href= "#skills" onClick={closeMobileMenu} className="text-decoration-none navlink text-light"> Compétences </a>
             <a href= "#galerie" onClick={closeMobileMenu} className="text-decoration-none navlink text-light"> Réalisations </a>
-            <NavLink to ="/contact" onClick={closeMobileMenu} exact className="text-decoration-none navlink bg-light text-dark rounded p-2" activeClassName="nav-active">Contact</NavLink>
+            <a href= "#contact" onClick={closeMobileMenu} className="text-decoration-none navlink bg-light text-dark rounded p-2"> Contact </a>
+            {/* <NavLink to ="/contact" onClick={closeMobileMenu} exact className="text-decoration-none navlink bg-light text-dark rounded p-2" activeClassName="nav-active">Contact</NavLink> */}
             </Fragment>
         )
     } else {
