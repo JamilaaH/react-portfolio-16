@@ -10,10 +10,10 @@ function Contact(props) {
                     </div>
                 </div>
                 <div className="reseaux">
-                    <a href="https://www.linkedin.com/in/jamila-hammani/"  target="_blank"><i className="icon fab fa-linkedin "></i></a>
-                    <a href="https://github.com/JamilaaH"  target="_blank"><i className="icon fab fa-github "></i></a>
-                    <a href="https://www.instagram.com/jamila.hmn/"  target="_blank"><i className="icon fab fa-instagram"></i></a>
-                    <a href="mailto:jamila-h@outlook.fr"  target="_blank"><i className="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/jamila-hammani/"  target="_blank"  rel="noreferrer"><i className="icon fab fa-linkedin "></i></a>
+                    <a href="https://github.com/JamilaaH"  target="_blank" rel="noreferrer"><i className="icon fab fa-github "></i></a>
+                    <a href="https://www.instagram.com/jamila.hmn/"  target="_blank" rel="noreferrer"><i className="icon fab fa-instagram"></i></a>
+                    <a href="mailto:jamila-h@outlook.fr"  target="_blank" rel="noreferrer"><i className="fas fa-envelope"></i></a>
                 </div>
             </section>
         </Fragment>

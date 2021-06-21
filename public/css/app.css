@@ -223,13 +223,23 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
   }
 }
 
-.galerie {
-  height: 100vh;
+#galerie {
   overflow-x: hidden;
 }
 
+#galerie .carte {
+  position: relative;
+}
+
+#galerie .carte .caption {
+  background-color: #1d2671;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+}
+
 @media screen and (max-width: 376px) {
-  .galerie {
+  #galerie {
     overflow-x: hidden;
   }
 }

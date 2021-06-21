@@ -1,8 +1,15 @@
-.galerie
-    height: 100vh
+#galerie
     overflow-x: hidden
+    .carte
+        position: relative
 
-
+    &&:hover
+        color: $colorBlue
+        .caption
+            background-color: $colorBlue
+            opacity: 0.9
+            position: absolute
+            top: 0
 @media screen and ( max-width: 376px )
-    .galerie
+    #galerie
         overflow-x: hidden

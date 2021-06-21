@@ -12,7 +12,7 @@ function Banniere() {
                     <Fade left>
                         <div className="contenu text-center">
                             <p className="titre">Jamila Hammani</p>
-                            <p className="soustitre">Développeuse Full Stack Web | Graphiste </p>
+                            <p className="soustitre">Développeuse Full Stack Web | <br></br> UI Designer </p>
                         </div>                            
                     </Fade>
                     <div class="scroll-indicator">
