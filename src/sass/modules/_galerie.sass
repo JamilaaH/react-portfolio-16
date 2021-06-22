@@ -2,14 +2,23 @@
     overflow-x: hidden
     .carte
         position: relative
-
-    &&:hover
-        color: $colorBlue
         .caption
-            background-color: $colorBlue
-            opacity: 0.9
             position: absolute
-            top: 0
+            top: 50%
+            left: 50%
+            color: white
+            transform: translate(-50%, -50%)
+            max-width: auto
+            text-transform: uppercase
+            font-family: 'josefin'
+            display: none
+            overflow-wrap: break-word
+        #image
+            img
+                width: 100%
+        &:hover
+            .caption
+                display: unset
 @media screen and ( max-width: 376px )
     #galerie
         overflow-x: hidden

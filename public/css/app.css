@@ -232,10 +232,24 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 }
 
 #galerie .carte .caption {
-  background-color: #1d2671;
-  opacity: 0.9;
   position: absolute;
-  top: 0;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  max-width: auto;
+  text-transform: uppercase;
+  font-family: 'josefin';
+  display: none;
+  overflow-wrap: break-word;
+}
+
+#galerie .carte #image img {
+  width: 100%;
+}
+
+#galerie .carte:hover .caption {
+  display: unset;
 }
 
 @media screen and (max-width: 376px) {
