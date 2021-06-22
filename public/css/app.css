@@ -139,12 +139,10 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 
 @media screen and (max-width: 768px) {
   header .banniere {
-    height: 100vh;
+    height: unset;
   }
   header .banniere .contenu {
     left: 27%;
-    width: unset;
-    height: unset;
   }
 }
 
@@ -194,7 +192,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
   }
   body header .banniere .contenu {
     padding: 30px;
-    left: 20%;
+    left: 15%;
     top: 30%;
   }
   body header .banniere .contenu .titre {
@@ -266,7 +264,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 
 @media screen and (max-width: 768px) {
   .competence {
-    height: 50vh;
+    height: auto;
   }
 }
 
