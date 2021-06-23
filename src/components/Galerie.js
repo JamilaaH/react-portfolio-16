@@ -1,14 +1,13 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import "aos/dist/aos.css";
 import Aos from 'aos';
-import { Card  } from 'react-bootstrap';
 
 function Galerie(props) {
     let [illu, setIllu] = useState([
-        {id:1 , nom: 'Emporium', img:'./img/realisations/emporium.png', description: "HTML/CSS/Responsive", categorie: " "},
-        {id:2 , nom: 'Site du chef', img:'./img/realisations/sitechef.png', description: "HTML/CSS/Responsive", categorie: " "},
-        {id:3 , nom: 'Epilogue', img:'./img/realisations/epilogue_screen.png', description: "HTML/CSS/Responsive", categorie: " "},
-        {id:4 , nom: 'Spatial', img:'./img/realisations/spatial.png', description: "HTML/CSS/Responsive", categorie: " "},
+        {id:1 , nom: 'Emporium', img:'./img/realisations/emporium.png', description: "Site réalisé en HTML/CSS/Responsive", categorie: " "},
+        {id:2 , nom: 'Site du chef', img:'./img/realisations/sitechef.png', description: "Site réalisé en HTML/CSS/Responsive", categorie: " "},
+        {id:3 , nom: 'Epilogue', img:'./img/realisations/epilogue_screen.png', description: "Site réalisé en HTML/CSS/Responsive", categorie: " "},
+        {id:4 , nom: 'Spatial', img:'./img/realisations/spatial.png', description: "Site réalisé en HTML/CSS/Responsive", categorie: " "},
         {id:5, nom: 'Affiche', img:'./img/realisations/affiche-tyn.png', description: "Affiche réalisée pour une association", categorie: " "},
         {id:6 , nom: 'Visuel pour les réseaux', img:'./img/realisations/content-reseaux.png', description: "Contenu réalisé durant un stage", categorie: " "},
         {id: 7, nom: 'Flyer - TYN', img:'./img/realisations/flyertyn.png', description: "Flyer distribué durant un événement", categorie: " "},
@@ -24,18 +23,12 @@ function Galerie(props) {
     ])
 
     function overlay(e) {
-        e.target.style = 'filter:brightness(0.4)'
+        e.target.style = 'filter:brightness(0.2); transition: 0.2s all ease'
     }
     function nonoverlay(e) {
         e.target.style = 'filter:unset'
     }
 
-    function visible(e) {
-        e.target.style = 'display:flex'
-    }
-    function invisible(e) {
-        e.target.style = 'display:unset'
-    }
 
 
 
