@@ -50,7 +50,7 @@ header nav .navig .nav-active {
 }
 
 header .navbar-active {
-  background-color: #1d2671;
+  background-color: #192272b6;
   position: fixed;
   height: 50px;
   z-index: 100;
@@ -154,7 +154,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
     position: absolute;
     height: 200px;
     top: 0px;
-    background: #1d2671;
+    background: #192272b6;
     right: -100%;
     width: 0%;
     overflow-x: hidden;
@@ -165,7 +165,7 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
     position: absolute;
     height: 200px;
     top: 0px;
-    background: #1d2671;
+    background: #192272b6;
     right: 0%;
     width: 100%;
     text-transform: uppercase;
@@ -216,6 +216,18 @@ header .banniere .scroll-indicator .scroll-indicator__bar {
 
 .about h1 {
   font-family: 'josefin';
+}
+
+.about .bouton {
+  background-color: white;
+  color: #1d2671;
+  border: 1px solid #1d2671;
+  margin: 0 13%;
+}
+
+.about .bouton:hover {
+  background-color: #1d2671;
+  color: white;
 }
 
 @media screen and (max-width: 378px) {

@@ -35,8 +35,9 @@ function About(props) {
                         </p>
                         </div>
 
-                        <div className="col-md-4 col-sm-12" data-aos="fade-up" >
+                        <div className="col-md-4 col-sm-12 d-flex flex-column" data-aos="fade-up" >
                             <img src="../img/avatar.png" alt="dev" className="w-75 mx-auto img-thumbnail"/>
+                            <a className="btn  mt-5 bouton" href="https://www.jamilahmn.be/CV-Jamila-H.pdf" target="_blank">MON CV</a>
                         </div>
                     </div>
                 </div>
